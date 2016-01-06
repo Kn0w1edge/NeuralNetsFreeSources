@@ -110,8 +110,6 @@ int main(){
                     printf("%d teach[%d]=%lf\n\n",f,f,teach[f]);
                 }
 
-                system("pause");
-
                         //Nerural nets
                             for(l=1;l<=LEARN;l++){          //learn_loop
                                 for(t=0;t<TRIAL;t++){       //training_loop
